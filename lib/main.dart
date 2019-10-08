@@ -71,18 +71,12 @@ class _HomePageState extends State<HomePage> {
                     decoration: InputDecoration(
                       labelText: "Title",
                     ),
-                    // onChanged: (value) {
-                    //   titleInput = value;
-                    // },
                   ),
                   TextField(
                     controller: amountController,
                     decoration: InputDecoration(
                       labelText: "Amount",
                     ),
-                    // onChanged: (value) {
-                    //   amountInput = value;
-                    // },
                   ),
                   FlatButton(
                     child: Text('Add Transaction'),
